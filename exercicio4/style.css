@@ -1,1 +1,27 @@
 /* Use :first-child e :last-child para estilizar os itens da lista */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+/* Estilo para o primeiro item da lista */
+ul li:first-child {
+    font-weight: bold;
+}
+
+/* Estilo para o último item da lista */
+ul li:last-child {
+    font-style: italic;
+}

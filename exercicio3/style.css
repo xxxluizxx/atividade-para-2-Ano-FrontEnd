@@ -1,1 +1,21 @@
 /* Estilize os links com :hover aqui */
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #df1c1c;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: rgb(0, 114, 19); /* Muda a cor para vermelho ao passar o mouse */
+        }
